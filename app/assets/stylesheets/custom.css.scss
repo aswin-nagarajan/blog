@@ -1,2 +1,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
+
+.jumbotron{
+  margin-top: 15px;
+  text-align: center;
+}
+
+#jumb-cont{
+  margin-bottom: 40px
+}
+
