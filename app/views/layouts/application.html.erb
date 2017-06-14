@@ -8,14 +8,8 @@
 </head>
 <body>
 <%= render 'layouts/navbar' %>   
-  <% if flash.any? %>
-  <% flash.each do|name,value| %>
-  <ul>
-    <li><%= msg %></li>
-  </ul>
-  <% end %>
-  
-<% end %>
+<%= render 'layouts/messages' %> 
+
  
 
 <%= yield %>

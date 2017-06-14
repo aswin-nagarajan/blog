@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   
   root 'pages#home'
   get 'alpha_blog/about',to:'pages#about'
+  get 'articles/success',to:'articles#success'
   
   
   resources :articles

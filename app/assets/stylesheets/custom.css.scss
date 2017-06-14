@@ -40,10 +40,6 @@ width: 100%; // Add this
 
 .navbar.navbar-default
 
-.btn.btn-primary{
-  background-color: white;
-  color: black;
-}
 
 .footer{
   margin-top: 40px;
@@ -60,9 +56,17 @@ width: 100%; // Add this
  
 }
 
+.navbar-nav > li > .dropdown-menu { background-color: #41464f; }
+.navbar-nav > li > .dropdown-menu li a:hover {
+  background-color: #070707;
+}
 
+.btn-group > .dropdown-menu { background-color: #41464f; }
 
+.btn-group > .dropdown-menu li a:hover{
+  background-color: #070707;
+}
 
-#btn-yo, #btn-yo1{
-  color: black;
+#nav-btn{
+  margin-top: 8px;
 }
