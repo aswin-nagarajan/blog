@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20170704163516) do
 
   create_table "articles", force: :cascade do |t|
-    t.string   "title",       limit: 255
+    t.string   "title"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
